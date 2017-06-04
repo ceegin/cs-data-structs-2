@@ -1,0 +1,44 @@
+Recursion
+
+1. In your own words, what is recursion?
+Recursion is a function that calls itself.
+
+2. Why is it necessary to have a base case?
+It is necessary to have a base case so that the function isn't in an infinite loop. 
+
+Graphs
+
+1. What is a graph?
+A graph is a representation of mapping relationships between nodes
+
+2. How is a graph different from a tree?
+Trees have parent/child relationships and don't contain cycles
+
+3. Give an example of something that would be good to model with a graph.
+Connecting with friends on social media where each user is a node and the connection is an edge.
+
+Performance of Different Data Structures:
+
+Python List:                   O(n), O(n), O(1)
+Linked List: O(n), O(n), O(1), O(1), O(1), O(n) 
+DoublL List: O(n), O(n), O(1), O(1), O(1), O(1)
+Queue(array):            O(1)        O(n)
+Queue(LL,DL):            O(1)        O(1)
+Stack:                   O(1)              O(1)
+Deque:                   O(1), O(1), O(1), O(1)
+
+Set (Hash map): O(1) O(1) O(1) O(n) medium
+Binary Tree: O(logn) O(n) O(n) O(1) little
+Tree:           O(n) O(1) O(1) O(1) little
+
+Sorting
+
+1. Describe in words how the Bubble Sort algorithm works.
+Bubble sort compares two numbers, selecting the larger number and moving it to the right. It will then compare the next two numbers in the list, until the largest number is at the end. It will continue to iterate through the list until all the items are sorted.
+
+2. Describe in words how the Merge Sort algorithm works.
+Merge sort divides a list into smaller pre sorted lists, then merges them back together.
+
+3. Describe in words how the Quick Sort algorithm works.
+Quick sort uses pivots that are randomly put in a list. Numbers smaller than the pivot will move to the left of the pivot and larger numbers will move to the right.
+    
